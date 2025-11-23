@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arma 3 Operations - Портфолио событий</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Arma 3 Operations</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Главная</a></li>
+                    <li><a href="#events" class="nav-link">События</a></li>
+                    <li><a href="#gallery" class="nav-link">Галерея</a></li>
+                    <li><a href="#contact" class="nav-link">Обратная связь</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Главная секция -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Arma 3 Military Operations</h1>
+            <p>Портал тактических событий и миссий</p>
+            <a href="#events" class="cta-button">Смотреть события</a>
+        </div>
+    </section>
+
+    <!-- Секция событий -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2 class="section-title">Последние события</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="https://via.placeholder.com/400x250/2c3e50/ffffff?text=Operation+Flashpoint" alt="Операция">
+                    </div>
+                    <div class="event-content">
+                        <h3>Operation Northern Wind</h3>
+                        <p class="event-date"><i class="far fa-calendar"></i> 15 декабря 2024</p>
+                        <p class="event-desc">Тактическая операция по освобождению северного региона...</p>
+                        <div class="event-tags">
+                            <span class="tag">PvE</span>
+                            <span class="tag">Тактика</span>
+                            <span class="tag">Кооператив</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="https://via.placeholder.com/400x250/34495e/ffffff?text=Urban+Assault" alt="Операция">
+                    </div>
+                    <div class="event-content">
+                        <h3>Urban Assault Campaign</h3>
+                        <p class="event-date"><i class="far fa-calendar"></i> 8 декабря 2024</p>
+                        <p class="event-desc">Штурм городских территорий с применением тяжелой техники...</p>
+                        <div class="event-tags">
+                            <span class="tag">PvP</span>
+                            <span class="tag">Городской бой</span>
+                            <span class="tag">Техника</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="https://via.placeholder.com/400x250/16a085/ffffff?text=Special+Ops" alt="Операция">
+                    </div>
+                    <div class="event-content">
+                        <h3>Special Forces Insertion</h3>
+                        <p class="event-date"><i class="far fa-calendar"></i> 1 декабря 2024</p>
+                        <p class="event-desc">Секретная миссия сил специального назначения...</p>
+                        <div class="event-tags">
+                            <span class="tag">PvE</span>
+                            <span class="tag">Стелс</span>
+                            <span class="tag">Спецназ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Слайдер галереи -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Галерея операций</h2>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide active">
+                        <img src="https://via.placeholder.com/800x450/2980b9/ffffff?text=Момент+из+операции+1" alt="Операция 1">
+                        <div class="slide-caption">Штурм укрепрайона</div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://via.placeholder.com/800x450/27ae60/ffffff?text=Момент+из+операции+2" alt="Операция 2">
+                        <div class="slide-caption">Воздушная поддержка</div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://via.placeholder.com/800x450/8e44ad/ffffff?text=Момент+из+операции+3" alt="Операция 3">
+                        <div class="slide-caption">Ночная операция</div>
+                    </div>
+                </div>
+                <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+                <div class="slider-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция обратной связи -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Обратная связь</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Свяжитесь с нами</h3>
+                    <p>Присоединяйтесь к нашим операциям или предложите сотрудничество</p>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@arma3ops.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-users"></i>
+                        <span>Discord: arma3ops</span>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Сообщение" rows="5" required></textarea>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Онлайн чат -->
+    <div class="chat-widget">
+        <div class="chat-header">
+            <span>Онлайн чат</span>
+            <button class="chat-toggle">
+                <i class="fas fa-comments"></i>
+            </button>
+        </div>
+        <div class="chat-body">
+            <div class="chat-messages">
+                <div class="message bot-message">
+                    <p>Добро пожаловать! Задавайте вопросы о предстоящих операциях.</p>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Введите сообщение...">
+                <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Arma 3 Operations. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
